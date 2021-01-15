@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  src: url("./assets/ShadowsIntoLight-Regular.ttf");
+  font-family: ShadowsIntoLight-Regular;
+}
+.fonte {
+  font-family: ShadowsIntoLight-Regular;
+  font-size: 50px;
+  text-align: left;
+  margin-bottom: 45px;
+  color: #000;
+  text-align: center;
+}
+body {
+  display: flex;
+  font-family: Rubik, Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+.back {
+  height: 485px;
+  background-image: url("./assets/yo.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+@media only screen and (max-width: 767px) {
+  .back {
+    background-image: url("./assets/yo2.png");
+  }
+}
+.logo {
+  width: 220px;
+  height: 24px;
+  vertical-align: middle;
+  margin: 5px;
+}
+.header {
+  margin: 0 0 0 33px;
+  padding: 10px;
+}
+.main {
+  padding: 10px;
+}
+#pagamentos {
+  color: #007bff;
+  font-weight: bold;
+  padding: 18px 0 0 0;
+  font-size: 15px;
+  height: 25px;
+}
+#copy {
+  color: rgb(124, 121, 121);
+  font-size: 13px;
+  padding: 0 0 15px 0;
+}
+.menu {
+  /*border-radius: 10px;*/
+  margin: 0;
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+
+  vertical-align: middle;
+  font-size: 16px;
+}
+.categorias {
+  display: inline-block;
+  background-color: #fff;
+  vertical-align: top;
+  height: 1064px;
+  padding: 4px 0 0 0;
+  border-radius: 10px;
+  margin: 0 0 0 5px;
+  font-weight: 500;
+  width: 21%;
+}
+.categoria {
+  margin: 10px 25px 0 37px;
+}
+.produtos {
+  display: inline-block;
+  width: 78%;
+  height: 1064px;
+  border-radius: 10px;
+  vertical-align: top;
+  background-color: white;
+}
+.box_produto {
+  display: inline-block;
+  width: 20%;
+  margin: 10px 10px 10px 30px;
+  text-align: center;
+}
+img.itens {
+  cursor: pointer;
+  width: 120px;
+}
+#rodape {
+  /*width: 99%;   */
+  text-align: center;
+  /*border-radius: 10px;*/
+  background-color: #fbfbfb;
+  /*margin: 8px 0  8px 7px; */
+}
+.preco {
+  color: red;
+  font-size: 26px;
+  font-weight: bold;
+}
+.descricao {
+  font-size: 18px;
+}
+.lojas {
+  display: inline-block;
+  background-color: white;
+  width: 99%;
+  height: 360px;
+  border-radius: 10px;
+  margin: 10px 0 2px 7px;
+}
+.mensagem {
+  display: inline-flex;
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: Rubik;
+  color: #000;
+  margin: 15px 6px 6px 6px;
+  padding: 10px;
+}
+
+.ender {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  padding: 120px 0 80px 0;
+  vertical-align: top;
+  font-size: 20px;
+}
+.contatos {
+  background-color: white;
+  width: 99%;
+
+  border-radius: 10px;
+  margin: 0 0 0 5px;
+}
+.email {
+  display: inline-block;
+  width: 50%;
+  margin: 15px 0 15px 0;
+}
+.tel {
+  display: inline-block;
+  width: 49%;
+  margin: 15px 0 15px 0;
+}
+.logocontato {
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.logocontato2 {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+.contp {
+  text-align: center;
+  font-size: 28px;
+  vertical-align: top;
+}
+.formu {
+  width: 96%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px 5px 0 5px;
+  padding: 20px;
+}
+input {
+  width: 100px;
+  height: 40px;
+  background-color: #e6e6e6;
+  border-radius: 10px;
+  border-color: rgba(1, 1, 1, 0.1);
+  font-weight: bold;
+}
+textarea {
+  border-radius: 10px;
+  background-color: #e6e6e6;
+  width: 615px;
+  height: 150px;
+  border-color: rgba(1, 1, 1, 0.1);
+}
+
+/* classe form pedido.php*/
+.nome {
+  width: 650px;
+  height: 35px;
+}
+.text {
+  padding: 18px;
+}
+.efeito {
+  text-align: center;
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: Rubik;
+  max-width: 90.5rem;
+  margin: 0.9375rem auto;
+}
+
+.efeito::after {
+  content: "|";
+  opacity: 1;
+  margin-left: 10px;
+  display: inline-block;
+  -webkit-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+.efeito2 {
+  text-align: center;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 1.2;
+  font-family: Rubik;
+  max-width: 42.5rem;
+  margin: 0.9375rem auto;
+}
+
+.efeito2::after {
+  content: "|";
+  opacity: 1;
+  margin-left: 10px;
+  display: inline-block;
+  -webkit-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+.card {
+  border-radius: 5px;
+}
+.App {
+  display: flex;
+  flex-wrap: wrap;
+}
+span {
+  padding-right: 60px;
+  font-size: 20px;
+}
+marquee {
+  padding: 4px;
+  margin: 0px 40px 0px 5px;
+}
+.nav {
+  background-color: #fff;  
+}
+b {
+    color: #007bff;
+    font-size: 20px;
+    font-weight: bold;
+}
+

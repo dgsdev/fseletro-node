@@ -1,0 +1,28 @@
+.Card {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 5px;   
+
+    flex-direction: column;
+    min-width: 300px;
+}
+.Card .Content {
+    flex: 1;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.Card .Footer {
+    background-color: #000;
+    color: #fff;
+    font-family: Rubik;
+    padding: 10px 0;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+}
